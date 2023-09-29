@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="https://raw.githubusercontent.com/Pranav-8bit/hotstar/b66c3cba4db86183782d6090c7e47c8ff7192f7d/images/logo.png"
+      class="brand-logo" alt="" />
+  <ul class="nav-links">
+      <li class="nav-items"><a href="#"><i class="fa fa-music"></i></a></li>
+      <li class="nav-items"><a href="#"><i class="fa fa-facebook"></i></a></li>
+      <li class="nav-items"><a href="#"><i class="fa fa-youtube"></i></a></li>
+      <li class="nav-items"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      <li class="nav-items"><a href="#"><i class="fa fa-instagram"></i></a></li>
+  </ul>
+      <div>
+        <img src="https://1000logos.net/wp-content/uploads/2017/06/Star-Wars-symbol.jpg" alt="Italian Trulli"
+            class="brand-logotwo">
+    </div>
+    <div class="right-container">
+        <i class="fa fa-search mx-12 " aria-hidden="true">Search</i>
+        <i class="fa fa-user-plus" aria-hidden="true">Sign In</i>
+    </div>
+
+      
+    </nav>
+
+    <div class="flex justify-around my-8">
+      <a href="#" class="font-medium text-white-600 dark:text-white-500 hover:underline ">
+          <form action="/action_page.php">
+
+              <select name="Movies" id="Movies">
+                  <option value="volvo">NEWS + FEATURES</option>
+                  <option value="saab">THE LATEST</option>
+                  <option value="opel">ASHOKA</option>
+                  <option value="audi">COMMUNITY</option>
+              </select>
+
+          </form>
+      </a>
+      <a href="#" class="font-medium text-white-600 dark:text-white-500 hover:underline  ">
+          <form action="/action_page.php">
+              <div>
+
+              </div>
+              <select name="Movies" id="Movies">
+                  <option value="volvo">VIDEOS</option>
+                  <option value="saab">THE LATEST VIDEOS</option>
+                  <option value="opel">THIS WEEK IN START WARS</option>
+
+              </select>
+
+          </form>
+      </a>
+      <a href="#"  class="text-white">FILMS</a>
+      <a href="#" class="text-white">SERIES</a>
+      <a href="#" class="text-white">INTERACTIVE</a>
+      <a href="#" class="text-white">DATABANK</a>
+      <a href="#"  class="text-white">DISNEY+</a>
+
+  </div>
+  <hr>
+  <p class="text-2xl font-bold white:text-white text-center text-white">ALL OF YOUR STAR WARS FAVORITES NOW STREAMING ON
+      DISNEY+</p>
+</div>
+
+    <div class="carousel-container">
+      <div class="carousel">
+        
+      </div>
+    </div>
+    <div class="video-card-container">
+      <div class="video-card">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/lego-sw-ucs-swcom-slide-desktop-lego_aca12bab.jpeg?region=0,0,2048,878" class="video-card-image" alt="" />
+        <video src="videos/disney.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/sabine-quiz-sw2-hero-desktop_04a500de.jpeg?region=0,0,2048,878" class="video-card-image" alt="" />
+        <video src="videos/pixar.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/chopper-cereal-bars-spheres-hero-desktop_4559d13b.jpeg?region=0,0,2048,878" class="video-card-image" alt="" />
+        <video src="videos/marvel.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="https://theculturednerd.org/wp-content/uploads/2021/04/946F4609-F9FC-41FA-AFE8-F8782BF3231F.jpeg" class="video-card-image" alt="" />
+        <video src="videos/star-war.mp4" muted loop class="card-video"></video>
+      </div>
+      <div class="video-card">
+        <img src="https://assets-prd.ignimgs.com/2023/09/13/ahsoka-blog-1694602703399.jpg" class="video-card-image" alt="" />
+        <video
+          src="videos/geographic.mp4"
+          muted
+          loop
+          class="card-video"
+        ></video>
+      </div>
+    </div>
+    <h1 class="title">Recommended For You</h1>
+    <div class="movies-list">
+      <button class="pre-btn" title="btn">
+        <img src="https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/09/13/ahsoka-episode-5-review-5.jpg" alt="" />
+      </button>
+      <button class="nxt-btn" title="btn">
+        <img src="images/nxt.png" alt="" />
+      </button>
+      <div class="card-container">
+        <div class="card">
+          <img src="https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/09/13/ahsoka-episode-5-review-5.jpg" class="card-img" alt="" />
+          <div class="card-body">
+            <h2 class="name">Movie Name</h2>
+            <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+            <button class="watchlist-btn">add to watchlist</button>
+          </div>
+        </div>
+        <div class="cardone">
+            <img src="https://wealthofgeeks.com/wp-content/uploads/2023/05/The-Book-of-Boba-Fetts-From-the-Desert-Comes-a-Stranger.png" class="card-img" alt="" />
+            <div class="card-body">
+              <h2 class="name">Movie Name</h2>
+              <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+              <button class="watchlist-btn">add to watchlist</button>
+            </div>
+          </div>
+          <div class="card">
+              <img src="https://static.wikia.nocookie.net/starwars/images/9/9b/Ahsoka_Tano_%28AG%29.png/revision/latest?cb=20230611113130&path-prefix=fi" class="card-img" alt="" />
+              <div class="card-body">
+                <h2 class="name">Movie Name</h2>
+                <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                <button class="watchlist-btn">add to watchlist</button>
+              </div>
+            </div>
+            <div class="card">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/3/2023/08/Shin-Hati-Ahsoka-dd4244e.jpg?quality=90&resize=620,414" class="card-img" alt="" />
+                <div class="card-body">
+                  <h2 class="name">Movie Name</h2>
+                  <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                  <button class="watchlist-btn">add to watchlist</button>
+                </div>
+              </div>
+              <div class="card">
+                  <img src="https://static01.nyt.com/images/2023/08/20/multimedia/20AHSOKA-whzt/20AHSOKA-whzt-articleLarge.jpg?quality=75&auto=webp&disable=upscale" class="card-img" alt="" />
+                  <div class="card-body">
+                    <h2 class="name">Movie Name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="https://sportshub.cbsistatic.com/i/2023/09/14/290a1d4b-db5f-4298-81a4-8f181ba73ef6/star-wars-ahsoka-posters-captain-rex.jpg?auto=webp&width=1080&height=1350&crop=0.8:1,smart" class="card-img" alt="" />
+                    <div class="card-body">
+                      <h2 class="name">Movie Name</h2>
+                      <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                      <button class="watchlist-btn">add to watchlist</button>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <img src="https://cdn.mos.cms.futurecdn.net/8TpuvajVkVLEBudpxm8GTE.jpg" class="card-img" alt="" />
+                      <div class="card-body">
+                        <h2 class="name">Movie Name</h2>
+                        <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                        <button class="watchlist-btn">add to watchlist</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                        <img src="https://www.slashfilm.com/img/gallery/why-does-anakin-call-ahsoka-snips-in-the-star-wars-saga/l-intro-1689712078.jpg" class="card-img" alt="" />
+                        <div class="card-body">
+                          <h2 class="name">Movie Name</h2>
+                          <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                          <button class="watchlist-btn">add to watchlist</button>
+                        </div>
+                      </div>
+                      <div class="card">
+                          <img src="https://sportshub.cbsistatic.com/i/2023/09/14/64fa9b4c-5629-47e0-9271-6f31ac4a3dcd/star-wars-ahsoka-posters-anakin-skywalker-clone-wars-era.jpg?auto=webp&width=1080&height=1350&crop=0.8:1,smart" class="card-img" alt="" />
+                          <div class="card-body">
+                            <h2 class="name">Movie Name</h2>
+                            <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                            <button class="watchlist-btn">add to watchlist</button>
+                          </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230821132330-01-ahsoka-review.jpg?c=16x9&q=h_720,w_1280,c_fill" class="card-img" alt="" />
+                            <div class="card-body">
+                              <h2 class="name">Movie Name</h2>
+                              <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                              <button class="watchlist-btn">add to watchlist</button>
+                            </div>
+                          </div>
+                          <div class="card">
+                              <img src="https://imgix.bustle.com/uploads/image/2023/8/22/351aae41-cff7-4d91-9431-d83b7cf5b21a-star-wars-ahsoka-sabine-wren.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg" class="card-img" alt="" />
+                              <div class="card-body">
+                                <h2 class="name">Movie Name</h2>
+                                <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                                <button class="watchlist-btn">add to watchlist</button>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://images6.fanpop.com/image/photos/45100000/Natasha-Liu-Bordizzo-as-Sabine-Wren-Star-Wars-Ahsoka-ahsoka-disney-45132057-300-300.jpg" class="card-img" alt="" />
+                                <div class="card-body">
+                                  <h2 class="name">Movie Name</h2>
+                                  <h6 class="des">Lorem ipsum dolor sit amet.</h6>
+                                  <button class="watchlist-btn">add to watchlist</button>
+                                </div>
+                              </div>
+      </div>
+    </div>
+    <h1 class="title">Popular Shows</h1>
+    <div class="movies-list">
+        <button class="pre-btn" title="btn"><img src="images/pre.png" alt=""></button>
+        <button class="nxt-btn" title="btn"><img src="images/nxt.png" alt=""></button>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://preview.redd.it/oh-yeah-mr-krabs-v0-hkx49coxrvjb1.jpg?width=640&crop=smart&auto=webp&s=8b219846f085def766ec2df1747578a71afe87e9" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.denofgeek.com/wp-content/uploads/2023/09/star-wars-ahsoka-nightroopers-captain-enoch-1.jpg?resize=768%2C432" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images8.alphacoders.com/133/1331440.png" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/564x/a4/13/28/a413287caafa7a4735a9a0bc7abcacb2.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static.wikia.nocookie.net/starwars/images/1/12/Ahsoka_Tano_TWJ.png/revision/latest/thumbnail/width/360/height/360?cb=20230114095213" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://c4.wallpaperflare.com/wallpaper/303/795/612/star-wars-star-wars-the-clone-wars-republic-heroes-ahsoka-tano-wallpaper-preview.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.itl.cat/pngfile/big/136-1366868_ahsoka-tano-against-coruscant-ahsoka-tano-quotes-clone.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://wallpapercrafter.com/desktop/447420-TV-Show-Star-Wars-The-Clone-Wars-Phone-Wallpaper.jpg" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.themarysue.com/wp-content/uploads/2023/09/Ahsoka-Tano-Anakin-Skywalker-Star-Wars-The-Clone-Wars.jpg?fit=1200%2C746" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://www.hollywoodreporter.com/wp-content/uploads/2023/08/ACW-IA-68310-H-2023-1.jpg?w=800" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://static.wikia.nocookie.net/heroes-and-villain/images/a/ac/Sabine_Wren_Ahsoka.png/revision/latest?cb=20230608031703" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://ironusa.vtexassets.com/arquivos/ids/205707/090304_0.jpg?v=638094735126930000" class="card-img" alt="">
+                <div class="card-body">
+                    <h2 class="name">movie name</h2>
+                    <h6 class="des">Lorem ipsum dolor sit amet consectetur.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="main-carousel">
+          <div class="cell"><img
+                  src="https://images.thedirect.com/media/article_full/ahsoka-disney-plus-star-wars.jpg"><b
+                  style="padding-top: 120px;">Anakin Ashoka reunion| Ashoka</b></div>
+          <div class="cell"><img
+                  src="https://www.disneyplusinformer.com/wp-content/uploads/2023/08/Ahsoka-Release-Schedule.png"><b>Time
+                  to fly this week| In star wars dispatch</b> </div>
+          <div class="cell"><img
+                  src="https://cdn.webtekno.com/media/cache/content_detail_v2/article/135060/ahsoka-disney-plus-yayin-tarihi-1686159854.jpg"><b>Anakin
+                  Ashoka reunion| Ashoka</b>
+
+          </div>
+          <div class="cell"><img
+                  src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA19AvO1.img"><b>Time
+                  to fly this week| In star wars dispatch</b></div>
+          <div class="cell"><img
+                  src="https://teamahsoka.files.wordpress.com/2021/05/disney-plus-may-the-4th-mural-zi-xu.jpg"><b>Time
+                  to fly this week| In star wars dispatch</b></div>
+          <div class="cell"><img
+                  src="https://emi9d8rzue7.exactdn.com/wp-content/uploads/2023/09/Ahsoka-Clip-3.jpg?strip=all&lossy=1&ssl=1">
+              <b>Anakin Ashoka reunion| Ashoka</b>
+
+              ...
+          </div>
+          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+          <script type="text/javascript">
+              $('.main-carousel').flickity({
+                  // options
+                  cellAlign: 'left',
+                  wrapAround: true,
+                  freeScroll: true
+
+              });
+
+          </script>
+      </div>
+
+
+      
+   </div>
+    <script src="index.js" async></script>
+  </body>
+</html>
